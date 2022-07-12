@@ -1,7 +1,12 @@
+function takeOrder (order, deliveryOrder) {
+  
+  return deliveryOrder.push(order);
+}
+
 
 module.exports = {
-  // takeOrder,
-  // refundOrder,
+   takeOrder,
+  //refundOrder,
   // listItems,
   // searchOrder
 }
